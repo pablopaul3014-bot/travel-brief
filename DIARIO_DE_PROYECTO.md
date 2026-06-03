@@ -47,3 +47,29 @@ Disenar y probar el prompt principal que generara los briefs de viaje.
 
 
 Crear la primera interfaz en Lovable.
+
+## Dia 3 - Prompt principal de IA
+
+Hoy disene y probe el primer prompt principal de IA para Travel Brief SEA.
+
+Use Kimi para probar tres casos:
+- Tailandia, 14 dias, julio, presupuesto medio, primera vez.
+- Vietnam, 14 dias, marzo, presupuesto bajo, mochilero.
+- Indonesia, 21 dias, mayo, presupuesto alto, pareja.
+
+### Avances
+
+- Cree el archivo PROMPTS.md.
+- Defini el prompt principal en espanol.
+- Agregue reglas para evitar informacion sensible inventada.
+- Probe tres casos de viaje con Kimi.
+- Detecte que las respuestas son utiles, pero algo extensas para un MVP.
+- Cree una version 0.2 mas breve para usar en la app.
+
+### Aprendizaje Del Dia
+
+El prompt no solo debe pedir una respuesta correcta. Tambien debe controlar longitud, estructura, riesgos y utilidad para el usuario.
+
+### Proximo Paso
+
+Elegir si la primera integracion real sera con DeepSeek, Kimi, Dify o respuestas mockeadas.

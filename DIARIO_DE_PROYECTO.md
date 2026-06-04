@@ -89,4 +89,41 @@ Evaluacion:
 - Funcionalidad aprobada.
 - Mejora pendiente de UX: agregar un texto de ayuda cuando el formulario este incompleto.
 
+## Dia 4 - Testing y mejoras de generacion mock
+
+Hoy continue probando Travel Brief SEA como usuario final.
+
+El objetivo fue revisar si el prototipo funciona correctamente antes de conectar una API real de IA.
+
+### Avances
+
+- Probe el formulario con distintos paises, duraciones, meses, presupuestos y estilos de viajero.
+- Verifique que el boton "Generar brief" permanece desactivado cuando faltan campos.
+- Detecte que la app no muestra un mensaje especifico cuando el formulario esta incompleto.
+- Revise que la leyenda "Resultados de prueba, sin IA real todavia" aparece correctamente.
+- Decidi mantener la generacion mock antes de conectar una API real.
+
+### Testing realizado
+
+#### Validacion del formulario
+
+Resultado:
+
+- La app no permite generar el brief si faltan campos.
+- El boton "Generar brief" queda desactivado correctamente.
+- No aparece un mensaje especifico indicando que se deben completar todos los campos.
+
+Evaluacion:
+
+- Funcionalidad aprobada.
+- Mejora pendiente de UX: agregar un texto de ayuda cuando el formulario este incompleto.
+
+### Aprendizaje del dia
+
+Antes de conectar una IA real, conviene validar que el flujo principal funcione bien con datos de prueba. Una app de IA necesita buena experiencia de usuario, no solo buenas respuestas del modelo.
+
+### Proximo paso
+
+Agregar una mejora pequena de UX para avisar al usuario que debe completar todos los campos antes de generar el brief.
+
 
